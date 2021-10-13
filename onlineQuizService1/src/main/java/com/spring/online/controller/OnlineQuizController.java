@@ -16,4 +16,11 @@ public String service() {
 	return "Services1";
 }
 
+
+@GetMapping("/Quiz")
+public String service1() {
+	
+	return "Services1";
+}
+
 }
