@@ -15,7 +15,8 @@ public class OnlineQuizcontroller {
 	
 	@GetMapping("/client1")
 	public String getmoney() {
-		String url="http://ONLINEQUIZSERIVCE1/quiz/service1";
+		//https://api.dictionaryapi.dev/api/v2/entries/en/hello
+		String url="https://OnlineQuizSerivce/quiz/service1";
 		return restTemplate.getForObject(url, String.class);		
 	}
 }
